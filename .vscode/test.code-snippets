@@ -1,0 +1,28 @@
+{
+
+  "React Component": {
+		"prefix": "rc",
+		"body": [
+			"import React, { useEffect } from \"react\"",
+			"",
+			"export default function ${1:ComponentName}() {",
+			"  return (",
+			"    <>",
+			"      $2",
+			"    </>",
+			"  )",
+			"}",		],
+		"description": "React Component"
+	},
+  "Create Context Container": {
+		"prefix": "ccc",
+		"body": [
+			"import { createContext } from \"react\"",
+			"",
+			"const ${1:ContextName} = createContext();",
+      "",
+      "export default $1",
+    ],
+		"description": "Create Context Container"
+	}
+}
